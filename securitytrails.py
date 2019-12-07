@@ -8,7 +8,7 @@ Created on Fri Dec  6 14:46:40 2019
 import requests
 from bs4 import BeautifulSoup
 for i in range (1,74):
-    fr = open('D:/Research Paper/paper5 cnamecloaking/json/'+str(i)+'.txt', 'w')
+    fr = open('cnamecloaking/json/'+str(i)+'.txt', 'w')
     
     
     url = "https://api.securitytrails.com/v1/domains/list"
